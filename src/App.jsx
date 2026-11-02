@@ -15,7 +15,7 @@ function App() {
         const response = await axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=19b15efc74b01eb7cc0574d85791c65c`)
       console.log(response.data)
       setMyData(response.data)
-      setLoading(flase)
+      setLoading(false)
       }
       catch(error){
         setErrorMessage("Server Error")
