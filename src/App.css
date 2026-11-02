@@ -28,7 +28,7 @@ h1 {
 
 .app:before {
     content: '';
-    background: url('raikom-beach-8463642_1920.jpg') no-repeat center center/cover;
+    background: url('../raikom-beach-8463642_1920.jpg') no-repeat center center/cover;
     position: absolute;
     width: 100vw;
     height: 100vh;
